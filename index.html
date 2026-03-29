@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unscroll Privacy Policy</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+            background: #f4f7fb;
+            color: #1f2937;
+            line-height: 1.65;
+        }
+        .wrap {
+            max-width: 920px;
+            margin: 32px auto;
+            padding: 0 20px 40px;
+        }
+        .card {
+            background: #ffffff;
+            border-radius: 16px;
+            box-shadow: 0 12px 32px rgba(15, 23, 42, 0.08);
+            padding: 32px;
+        }
+        h1, h2, h3 {
+            color: #0f172a;
+        }
+        h1 {
+            margin-top: 0;
+            font-size: 2rem;
+        }
+        h2 {
+            margin-top: 32px;
+            padding-top: 20px;
+            border-top: 1px solid #e5e7eb;
+        }
+        .meta, .notice {
+            border-radius: 12px;
+            padding: 16px 18px;
+            margin: 18px 0;
+        }
+        .meta {
+            background: #eff6ff;
+            color: #1d4ed8;
+        }
+        .notice {
+            background: #f8fafc;
+            border-left: 4px solid #0ea5e9;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 16px 0;
+        }
+        th, td {
+            border: 1px solid #e5e7eb;
+            padding: 12px;
+            text-align: left;
+            vertical-align: top;
+        }
+        th {
+            background: #f8fafc;
+        }
+        code {
+            background: #f3f4f6;
+            padding: 2px 6px;
+            border-radius: 6px;
+        }
+        a {
+            color: #2563eb;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        ul {
+            padding-left: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrap">
+        <div class="card">
+            <h1>Privacy Policy for Unscroll</h1>
+
+            <div class="meta">
+                <strong>Last updated:</strong> March 28, 2026<br>
+                <strong>Effective date:</strong> March 28, 2026
+            </div>
+
+            <p>
+                This Privacy Policy explains how the Unscroll Android app ("Unscroll," "we," "our," or "us")
+                processes information when you use the app. This policy is intended to match the app's current
+                Android codebase and third-party integrations as of the date above.
+            </p>
+
+            <div class="notice">
+                <strong>Short version:</strong> Unscroll mainly works on-device. It uses Android Accessibility
+                features to detect short-form video screens in supported apps and navigate away. Your blocking
+                settings, usage stats, and most app state stay on your device. However, the app also uses Google
+                services for ads, consent, push messaging, remote configuration, crash reporting, analytics
+                (if you opt in), and billing.
+            </div>
+
+            <h2>1. Who This Policy Applies To</h2>
+            <p>
+                This policy applies to users of the Unscroll Android app distributed through Google Play or other
+                lawful Android distribution channels for the same app package.
+            </p>
+
+            <h2>2. What Unscroll Does</h2>
+            <p>
+                Unscroll is a focus and screen-time management app. It can:
+            </p>
+            <ul>
+                <li>Detect short-form video surfaces in supported apps such as YouTube, Instagram, Instagram Lite, Facebook, Facebook Lite, TikTok, Snapchat, and Twitter/X.</li>
+                <li>Use Accessibility actions to navigate away from those surfaces.</li>
+                <li>Track your local blocking statistics and daily usage limits.</li>
+                <li>Offer optional full-app blocking based on the apps installed on your device.</li>
+                <li>Show ads to non-premium users and offer premium purchases through Google Play Billing.</li>
+            </ul>
+
+            <h2>3. Information Processed On Your Device</h2>
+            <p>
+                The following information is processed or stored locally on your device by the app:
+            </p>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Category</th>
+                        <th>Examples</th>
+                        <th>Why</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Accessibility-derived app activity</td>
+                        <td>Window state, view IDs, class names, content descriptions, button labels, and screen titles from supported apps</td>
+                        <td>To detect short-form video screens and trigger navigation away from them</td>
+                    </tr>
+                    <tr>
+                        <td>App settings</td>
+                        <td>Enabled apps, pause timers, daily limits, notification preferences, theme choices, onboarding flags, privacy settings</td>
+                        <td>To make the app work and preserve your preferences</td>
+                    </tr>
+                    <tr>
+                        <td>Local usage and blocking statistics</td>
+                        <td>Block counts, most-blocked app, daily usage time, timestamps, premium unlock state</td>
+                        <td>To show progress, enforce limits, and support premium features</td>
+                    </tr>
+                    <tr>
+                        <td>Installed app list for full-app blocking</td>
+                        <td>Launchable package names, app names, and icons available on the device</td>
+                        <td>To let you choose which apps to block</td>
+                    </tr>
+                    <tr>
+                        <td>Local protection credentials</td>
+                        <td>Password/PIN hashes and related lock settings</td>
+                        <td>To gate changes inside the app</td>
+                    </tr>
+                    <tr>
+                        <td>Local purchase state</td>
+                        <td>Premium flags, active plan type, and purchase token cached on-device</td>
+                        <td>To restore premium access locally</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <p>
+                We do <strong>not</strong> operate our own custom backend for user accounts, profiles, or cloud sync
+                based on the current app codebase reviewed on March 28, 2026.
+            </p>
+
+            <h2>4. Accessibility Service Data</h2>
+            <p>
+                Unscroll uses Android Accessibility Service only for the app's core blocking functionality. The service
+                reads UI structure and labels from supported apps to identify short-form video screens and then performs
+                actions such as <code>BACK</code> or navigation to a safer surface.
+            </p>
+            <ul>
+                <li>Accessibility-derived data is processed locally in real time for detection and blocking.</li>
+                <li>We do not use the Accessibility Service to record your screen, take screenshots, read messages for profiling, or transmit monitored app content to our own servers.</li>
+                <li>Accessibility Service access is optional, but the main blocking features will not function without it.</li>
+            </ul>
+
+            <h2>5. Information Shared With Third Parties</h2>
+            <p>
+                Even though much of Unscroll works locally, some information is collected or received by third-party
+                service providers that are part of the app:
+            </p>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Provider</th>
+                        <th>Purpose</th>
+                        <th>Examples of data involved</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Google Mobile Ads / AdMob</td>
+                        <td>Ads for non-premium users</td>
+                        <td>Advertising ID, device/app information, IP-based approximate location, consent signals, and ad interaction data, as determined by Google's ad SDKs and platform services</td>
+                    </tr>
+                    <tr>
+                        <td>Google User Messaging Platform (UMP)</td>
+                        <td>Consent collection and consent status management</td>
+                        <td>Consent choices and region-based consent flow information</td>
+                    </tr>
+                    <tr>
+                        <td>Firebase Cloud Messaging</td>
+                        <td>Push notification delivery</td>
+                        <td>FCM registration token, topic subscription, message delivery metadata, and notification content sent through Firebase</td>
+                    </tr>
+                    <tr>
+                        <td>Firebase Remote Config</td>
+                        <td>Remote feature/config control</td>
+                        <td>App instance/config requests and returned configuration values</td>
+                    </tr>
+                    <tr>
+                        <td>Firebase Analytics</td>
+                        <td>Optional analytics if you opt in</td>
+                        <td>App events, screen views, premium/ad events, and user properties configured by the app</td>
+                    </tr>
+                    <tr>
+                        <td>Firebase Crashlytics</td>
+                        <td>Optional crash diagnostics in release builds if you opt in</td>
+                        <td>Crash reports, device/app version details, and related diagnostics</td>
+                    </tr>
+                    <tr>
+                        <td>Google Play Billing</td>
+                        <td>Premium purchase processing and restoration</td>
+                        <td>Purchase state, product IDs, purchase tokens, subscription status, and payment-related records handled by Google Play</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <p>
+                We do not sell your personal information for money. However, depending on your jurisdiction, sharing
+                data with advertising and measurement providers may be treated as "sharing," "sale," or targeted
+                advertising under local law.
+            </p>
+
+            <h2>6. Ads and Consent</h2>
+            <ul>
+                <li>Non-premium users may receive banner, interstitial, rewarded, and app-open ads through Google Mobile Ads.</li>
+                <li>The app uses Google's User Messaging Platform to request consent where Google determines a consent flow is required.</li>
+                <li>You can reset the app's Google ads consent flow from within the app where that option is available.</li>
+                <li>You can also use Android or Google settings to reset or delete your Advertising ID and manage ad personalization.</li>
+            </ul>
+
+            <h2>7. Notifications</h2>
+            <p>
+                The app can send local notifications and can also receive push notifications through Firebase Cloud
+                Messaging. Based on the code reviewed on March 28, 2026, the app requests or refreshes an FCM token on
+                app startup and subscribes the device to a general topic used for app-wide notifications.
+            </p>
+
+            <h2>8. What We Do Not Ask For Directly</h2>
+            <p>
+                Unscroll does not directly request Android runtime permissions for contacts, camera, microphone, or
+                precise location in the current codebase. It also does not include a built-in user account registration
+                or sign-in system.
+            </p>
+            <p>
+                Unscroll does not intentionally collect your name, email address, postal address, or phone number
+                through the app itself unless you choose to contact us directly.
+            </p>
+
+            <h2>9. Legal Bases</h2>
+            <p>
+                Depending on your region, we may rely on one or more of the following grounds:
+            </p>
+            <ul>
+                <li>Your instructions to us and the necessity of processing to provide the app's requested functions.</li>
+                <li>Your consent, where required, for analytics, crash reporting, or certain advertising-related processing.</li>
+                <li>Our legitimate interests in app security, fraud prevention, debugging, and maintaining service functionality, where permitted by law.</li>
+                <li>Compliance with legal obligations related to payments, taxation, and lawful requests.</li>
+            </ul>
+
+            <h2>10. Data Retention</h2>
+            <ul>
+                <li>Local app settings and statistics remain on your device until you reset them, clear app storage, or uninstall the app.</li>
+                <li>Cached premium status and purchase token remain locally until cleared or overwritten.</li>
+                <li>Third-party retention for AdMob, Firebase, and Google Play Billing is governed by those providers' own retention practices and policies.</li>
+                <li>Because the app currently relies on Google services rather than our own backend, some deletion requests may need to be exercised through Google controls in addition to contacting us.</li>
+            </ul>
+
+            <h2>11. Your Choices and Rights</h2>
+            <p>
+                Depending on where you live, you may have rights to access, delete, correct, object to, or limit
+                certain processing, and rights to opt out of targeted advertising or certain sharing practices. You can
+                take the following actions:
+            </p>
+            <ul>
+                <li>Disable Accessibility Service in Android settings.</li>
+                <li>Disable notifications in Android settings or inside the app.</li>
+                <li>Use the in-app privacy controls to opt in or out of Firebase Analytics and Firebase Crashlytics.</li>
+                <li>Reset Google ads consent from the app where that option is provided.</li>
+                <li>Use Android/Google ad settings to reset or delete your Advertising ID and manage ad personalization.</li>
+                <li>Clear app storage, uninstall the app, or use in-app reset options to remove local data.</li>
+                <li>Contact us to submit a privacy request. If the requested data is controlled by Google services, we may also direct you to Google's privacy tools.</li>
+            </ul>
+
+            <h3>California, Brazil, South Africa, China, and Other Regional Rights</h3>
+            <p>
+                If local law gives you rights such as access, deletion, correction, portability, objection, or opt-out
+                rights, contact us using the details below. We will review the request under the law that applies to
+                you. For data processed by Google services, your request may need to be completed partly through Google
+                tools because we do not control those service records directly.
+            </p>
+
+            <h2>12. International Data Transfers</h2>
+            <p>
+                Because Unscroll uses Google services such as AdMob, Firebase, and Google Play Billing, data may be
+                processed outside your country, including in countries that may not provide the same level of legal
+                protection as your home jurisdiction. We rely on the safeguards, contractual commitments, and regional
+                compliance mechanisms offered by those service providers where applicable.
+            </p>
+
+            <h2>13. Children</h2>
+            <p>
+                Unscroll is not intended for children under 13, and we do not intend to operate the app as a
+                child-directed service. If you believe a child under 13 has used the app in a way that creates a
+                privacy concern, contact us and uninstall the app from the device.
+            </p>
+            <p>
+                If you plan to distribute or configure Unscroll as a children-directed or mixed-audience app, the app
+                and its disclosures should be re-reviewed because the current integrations and flows may require
+                additional changes.
+            </p>
+
+            <h2>14. Security</h2>
+            <p>
+                We use reasonable measures to protect the information we control, but no app or networked service can
+                guarantee absolute security. Your device security settings and Google account controls are also
+                important parts of protecting your information.
+            </p>
+
+            <h2>15. Changes to This Policy</h2>
+            <p>
+                We may update this Privacy Policy as the app changes. When we do, we will update the "Last updated"
+                date above.
+            </p>
+
+            <h2>16. Contact</h2>
+            <p>
+                If you have privacy questions or want to exercise a privacy right, contact:
+            </p>
+            <ul>
+                <li>Email: <a href="mailto:un0scroll@gmail.com">un0scroll@gmail.com</a></li>
+                <li>Phone: +91 7488256944</li>
+                <li>Address: Hajipur, Bihar 844101, India</li>
+            </ul>
+
+            <h2>17. Third-Party Privacy Links</h2>
+            <ul>
+                <li><a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Google Privacy Policy</a></li>
+                <li><a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener noreferrer">Firebase Privacy and Security</a></li>
+                <li><a href="https://support.google.com/admob/" target="_blank" rel="noopener noreferrer">Google AdMob Help</a></li>
+                <li><a href="https://payments.google.com/payments/apis-secure/get_legal_document?ldo=0&ldt=privacynotice" target="_blank" rel="noopener noreferrer">Google Payments Privacy Notice</a></li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
